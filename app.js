@@ -3,6 +3,7 @@ const sectBtns = document.querySelectorAll('.controlls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelectorAll('main-content');
 
+
 function PageTransitions(){
     // button click active class
     for(let i=0; i<sectBtn.length; i++){
@@ -12,6 +13,13 @@ function PageTransitions(){
             this.className += ' active-btn';
         })
     }
+
+    //sections active 
+    allSections.addEventListener('click', (e)=>{
+        console.log(e.target);
+    })
+
+  
 }
 
 PageTransitions();

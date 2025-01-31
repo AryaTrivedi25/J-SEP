@@ -1,5 +1,5 @@
 #step 1 : build the react app
-FROM node:22.12.0alpine3.20 as build
+FROM node:22.12.0-alpine3.20 as build
 WORKDIR /app
 COPY package.json .
 RUN npm install

@@ -1,9 +1,10 @@
 name: CICD
+
 on:
+  workflow_dispatch:
   push:
     branches:
-      - deploy-to-ec2
-
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -14,17 +14,17 @@ jobs:
       - name: Login to Docker Hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{secrets.DOCKER_PASSWORD}}
       - name: Build Docker Image
-        run: docker build -t integrationninjas/jsep .
+        run: docker build -t aryatrivedi/jsep .
       - name: Publish image to docker hub
-        run: docker push integrationninjas/jsep:latest
+        run: docker push aryatrivedi/jsep:latest
   deploy:
     needs: build
     runs-on: aws-ec2
     steps: 
       - name: Pull inage from dockr hub
-        run: docker pull integrationninjas/jsep:latest
+        run: docker pull aryatrivedi/jsep:latest
       - name: Delete Old Container
         run: docker rm -f reactContainer
       - name: Run docker container
-        run: docker run -d -p 3000:80 --name reactContainer integrationninjas/jsep
+        run: docker run -d -p 3000:80 --name reactContainer aryatrivedi/jsep
 

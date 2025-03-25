@@ -10,7 +10,6 @@ import instaIconLight from '../../assets/instagramLight.png';
 import instaIconDark from '../../assets/instagramDarkNEW.png';
 import linkedInIconLight from '../../assets/linkedin-light.svg';
 import linkedInIconDark from '../../assets/linkedin-dark.svg';
-import brochure from '../../assets/J SEP LEGAL Brochure.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {

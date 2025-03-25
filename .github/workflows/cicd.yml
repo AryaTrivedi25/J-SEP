@@ -19,7 +19,7 @@ jobs:
         run: docker push aryatrivedi/jsep:latest
   deploy:
     needs: build
-    runs-on: aws-ec2
+    runs-on: self-hosted
     steps: 
       - name: Pull inage from dockr hub
         run: docker pull aryatrivedi/jsep:latest

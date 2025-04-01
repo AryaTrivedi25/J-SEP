@@ -28,3 +28,7 @@ This project is a fully responsive and secure website developed for J-Sep Legal 
 # Security & Performance Enhancements
 
 •	SSL Certificate: Configured for encrypted communication.
+
+# Contact
+
+For inquiries, reach out to J-Sep Legal via their official website: http://jseplegal.com/

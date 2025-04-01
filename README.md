@@ -1,8 +1,20 @@
-# React + Vite
+# J-Sep Legal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Overview
+This project is a fully responsive and secure website developed for J-Sep Legal Lawfirm. The website provides an intuitive user experience while ensuring data security and high availability. It is deployed on AWS with Docker containerization and SSL encryption for enhanced performance and security.
 
-Currently, two official plugins are available:
+# Features
+•	Responsive Design: Built with modern web technologies for seamless browsing across devices.
+•	AWS Deployment: Hosted on AWS for scalability and reliability.
+•	Docker Containerization: Ensures a portable and consistent deployment environment.
+•	SSL Security: Implements HTTPS encryption for secure data transmission.
+•	Scalability & Performance: Optimized for high availability and fast loading times.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Technologies Used:
+•	Frontend: React.js
+•	Containerization: Docker
+•	Hosting & Deployment: AWS (EC2, S3, Route 53)
+•	Security: SSL Certificate (HTTPS)
+
+# Security & Performance Enhancements
+•	SSL Certificate: Configured for encrypted communication.

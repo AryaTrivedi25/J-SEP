@@ -5,16 +5,26 @@ This project is a fully responsive and secure website developed for J-Sep Legal 
 
 # Features
 •	Responsive Design: Built with modern web technologies for seamless browsing across devices.
+
 •	AWS Deployment: Hosted on AWS for scalability and reliability.
+
 •	Docker Containerization: Ensures a portable and consistent deployment environment.
+
 •	SSL Security: Implements HTTPS encryption for secure data transmission.
+
 •	Scalability & Performance: Optimized for high availability and fast loading times.
 
+
 # Technologies Used:
+
 •	Frontend: React.js
+
 •	Containerization: Docker
+
 •	Hosting & Deployment: AWS (EC2, S3, Route 53)
+
 •	Security: SSL Certificate (HTTPS)
 
 # Security & Performance Enhancements
+
 •	SSL Certificate: Configured for encrypted communication.

@@ -31,4 +31,4 @@ This project is a fully responsive and secure website developed for J-Sep Legal 
 
 # Contact
 
-For inquiries, reach out to J-Sep Legal via their official website: http://jseplegal.com/
+For inquiries, reach out to J-Sep Legal via their official website: https://jseplegal.com/

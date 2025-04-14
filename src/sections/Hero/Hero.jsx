@@ -54,8 +54,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>Powering Your Legal Success with Innovation, Insight, and Excellence.</p>
-        <a href="https://drive.google.com/file/d/1igxYZqzU06vqaRyQJ-uZVCMdgJF_Ri27/view?usp=sharing" target='_blank'>
-          <button className='hover'> Dowmload Brochure &#11015;</button>
+        <a href="https://drive.google.com/file/d/1-1_E8cn9s0zjHKmUqnQc2SDiyVNeThkl/view?usp=sharing" target='_blank'>
+          <button className='hover'> Download Brochure &#11015;</button>
         </a>
       </div>
     </section>
